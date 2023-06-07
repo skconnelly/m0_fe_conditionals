@@ -10,12 +10,19 @@
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= 2) {
+    console.log("I have enough money for a gumball");
+} else {
+    console.log("I don't have enough money for a gumball");
+
+}
+
+
 
 
 // CHALLENGE 2
-// Using the variables defined below, write code that will tell you if you have the ingredients to make a pizza. 
+// Using the variables defined below, write code that will tell you if you have the ingredients to 
+// make a pizza. 
 // A pizza requires at least two cups of flour and sauce.
 
 // You should be able to change the variables to achieve the following outputs:
@@ -24,8 +31,15 @@ console.log("I don't have enough money for a gumball");
 // If cupsOfFlour = 2 and hasSauce = true, print "I can make pizza"
 // If cupsOfFlour = 3 and hasSauce = true, print "I can make pizza"
 
-// Experiment with manipulating the value held within both variables to make sure all above conditions output what you expect.
+// Experiment with manipulating the value held within both variables to make sure all above 
+// conditions output what you expect.
 
-var cupsOfFlour = 1;
-var hasSauce = true;
+var cupsOfFlour = 2;
+var hasSauce = false;
+
+if (cupsOfFlour >= 2 && hasSauce === true) {
+    console.log("I can make some delicious za!!")
+} else {
+    console.log("No za for you!")
+}
 
